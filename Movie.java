@@ -10,10 +10,10 @@ public class Movie {
         releaseYear = 1989;
         movieNote = 8.2F;
 
-        System.out.println(movieName);
-        System.out.println(isSeen);
-        System.out.println(releaseYear);
-        System.out.println(movieNote);
+        System.out.println("The original movie name is: "+ movieName);
+        System.out.println("It is " + isSeen+ " I have seen the movie");
+        System.out.println("The movie was released in " + releaseYear);
+        System.out.println("It was scored " + movieNote);
 
     }
 }
